@@ -6,7 +6,6 @@ import { useAppContext } from "../Context/AppContext";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const { user, setUser, setShowUserLogin, navigate } = useAppContext();
-  // setUser();
 
   const logout = () => {
     setUser(null);

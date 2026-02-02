@@ -33,10 +33,7 @@ const SellerLogin = () => {
           <div className="w-full">
             <p>Email</p>
             <input
-              onChange={(e) => {
-                setEmail(e.target.value);
-                console.log(email);
-              }}
+              onChange={(e) => setEmail(e.target.value)}
               value={email}
               type="email"
               placeholder="Enter your email"

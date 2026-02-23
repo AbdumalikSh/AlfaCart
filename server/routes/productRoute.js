@@ -5,7 +5,7 @@ import {
   changeStock,
   productById,
   productList,
-} from "../controllers/productController";
+} from "../controllers/productController.js";
 
 const productRoute = express.Router();
 
